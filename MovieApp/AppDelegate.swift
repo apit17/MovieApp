@@ -16,6 +16,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let tabbarController = MainTabBarViewController()
+        tabbarController.tabBarItem = UITabBarItem()
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let nowPlaying = storyboard.instantiateViewController(withIdentifier: "NowPlayingViewController") as! NowPlayingViewController
+        nowPlaying.title = "Now Playing"
+        let upcoming = storyboard.instantiateViewController(withIdentifier: "NowPlayingViewController") as! NowPlayingViewController
+        upcoming.title = "Upcoming"
+        let popular = storyboard.instantiateViewController(withIdentifier: "NowPlayingViewController") as! NowPlayingViewController
+        popular.title = "Popular"
+        tabbarController.tabBar.barTintColor = UIColor(red: 87.0/255.0, green: 20.0/255.0, blue: 53.0/255.0, alpha: 1.0)
+        tabbarController.viewControllers = [nowPlaying, upcoming, popular]
+        let navigationController = UINavigationController(rootViewController: tabbarController)
+        navigationController.navigationBar.isTranslucent = false
+        navigationController.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.black as Any]
+        navigationController.navigationBar.barTintColor = UIColor(red: 87.0/255.0, green: 20.0/255.0, blue: 53.0/255.0, alpha: 1.0)
+        navigationController.title = tabbarController.title
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = navigationController
+        window?.makeKeyAndVisible()
         return true
     }
 

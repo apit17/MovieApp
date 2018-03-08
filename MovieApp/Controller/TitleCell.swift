@@ -1,21 +1,18 @@
 //
-//  ListMovieTableViewCell.swift
+//  TitleCell.swift
 //  MovieApp
 //
-//  Created by Apit on 3/6/18.
+//  Created by Apit on 3/8/18.
 //  Copyright © 2018 Apit. All rights reserved.
 //
 
 import UIKit
 
-class ListMovieTableViewCell: UITableViewCell {
+class TitleCell: UITableViewCell {
 
-    @IBOutlet weak var posterImage: UIImageView!
     @IBOutlet weak var titleMovieLabel: UILabel!
-    @IBOutlet weak var dateMovieLabel: UILabel!
-    @IBOutlet weak var contentMovieLabel: UILabel!
-    @IBOutlet weak var ratingImageView: UIImageView!
-    
+    @IBOutlet weak var releaseDateLabel: UILabel!
+    @IBOutlet weak var posterImageView: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
