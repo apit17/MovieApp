@@ -23,6 +23,16 @@
 		48867CFD2050941B0000F951 /* TitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48867CFC2050941B0000F951 /* TitleCell.xib */; };
 		48867CFF205096B60000F951 /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48867CFE205096B60000F951 /* TitleCell.swift */; };
 		48867D0120509C960000F951 /* DetailMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48867D0020509C960000F951 /* DetailMovie.swift */; };
+		48ECA56620525B2600B2DE94 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48ECA56420525B2400B2DE94 /* Realm.framework */; };
+		48ECA56720525B2600B2DE94 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48ECA56520525B2500B2DE94 /* RealmSwift.framework */; };
+		48ECA56820525BB700B2DE94 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48ECA56420525B2400B2DE94 /* Realm.framework */; };
+		48ECA56920525BB700B2DE94 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48ECA56420525B2400B2DE94 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		48ECA56A20525BB700B2DE94 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48ECA56520525B2500B2DE94 /* RealmSwift.framework */; };
+		48ECA56B20525BB700B2DE94 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48ECA56520525B2500B2DE94 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		48ECA56E20525C1000B2DE94 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ECA56D20525C1000B2DE94 /* Constants.swift */; };
+		48ECA57320525D1000B2DE94 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ECA57220525D1000B2DE94 /* LoginViewController.swift */; };
+		48ECA57520525D1D00B2DE94 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ECA57420525D1D00B2DE94 /* SignUpViewController.swift */; };
+		48ECA57720525DE400B2DE94 /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ECA57620525DE400B2DE94 /* MainNavigationViewController.swift */; };
 		48FEC5AD2050F8F400AD63C7 /* BodyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48FEC5AC2050F8F400AD63C7 /* BodyCell.xib */; };
 		48FEC5AF2050FF6300AD63C7 /* BodyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FEC5AE2050FF6300AD63C7 /* BodyCell.swift */; };
 		48FEC5B120510A4A00AD63C7 /* SupportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FEC5B020510A4A00AD63C7 /* SupportCell.swift */; };
@@ -33,6 +43,21 @@
 		48FEC5BB20510C9800AD63C7 /* AktrisCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FEC5BA20510C9800AD63C7 /* AktrisCollectionViewCell.swift */; };
 		713E2C7BECD039D730F34D22 /* Pods_MovieApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C568D874AED35D2058CD235B /* Pods_MovieApp.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		48ECA56C20525BB700B2DE94 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				48ECA56B20525BB700B2DE94 /* RealmSwift.framework in Embed Frameworks */,
+				48ECA56920525BB700B2DE94 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		484623AA204EFCD300F58556 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
@@ -55,6 +80,12 @@
 		48867CFC2050941B0000F951 /* TitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleCell.xib; sourceTree = "<group>"; };
 		48867CFE205096B60000F951 /* TitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
 		48867D0020509C960000F951 /* DetailMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovie.swift; sourceTree = "<group>"; };
+		48ECA56420525B2400B2DE94 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		48ECA56520525B2500B2DE94 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		48ECA56D20525C1000B2DE94 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		48ECA57220525D1000B2DE94 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		48ECA57420525D1D00B2DE94 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		48ECA57620525DE400B2DE94 /* MainNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
 		48FEC5AC2050F8F400AD63C7 /* BodyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BodyCell.xib; sourceTree = "<group>"; };
 		48FEC5AE2050FF6300AD63C7 /* BodyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyCell.swift; sourceTree = "<group>"; };
 		48FEC5B020510A4A00AD63C7 /* SupportCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportCell.swift; sourceTree = "<group>"; };
@@ -73,7 +104,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48ECA56820525BB700B2DE94 /* Realm.framework in Frameworks */,
+				48ECA56A20525BB700B2DE94 /* RealmSwift.framework in Frameworks */,
+				48ECA56620525B2600B2DE94 /* Realm.framework in Frameworks */,
 				713E2C7BECD039D730F34D22 /* Pods_MovieApp.framework in Frameworks */,
+				48ECA56720525B2600B2DE94 /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +120,7 @@
 			children = (
 				484623AA204EFCD300F58556 /* WebService.swift */,
 				484623AC204EFCE400F58556 /* ErrorHandler.swift */,
+				48ECA56D20525C1000B2DE94 /* Constants.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -119,6 +155,7 @@
 		486DA39F204EDDE1004BC029 /* MovieApp */ = {
 			isa = PBXGroup;
 			children = (
+				48ECA57020525CC600B2DE94 /* Cell */,
 				48867CE4205010390000F951 /* Library */,
 				484623AE204F09A400F58556 /* Model */,
 				484623A9204EFCA300F58556 /* Utility */,
@@ -136,13 +173,9 @@
 		486DA3B2204EE8BE004BC029 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				48ECA578205266FD00B2DE94 /* XIB */,
 				486DA3A4204EDDE1004BC029 /* Main.storyboard */,
 				486DA3A9204EDDE1004BC029 /* LaunchScreen.storyboard */,
-				48867CFC2050941B0000F951 /* TitleCell.xib */,
-				48FEC5AC2050F8F400AD63C7 /* BodyCell.xib */,
-				48FEC5B420510A9900AD63C7 /* SupportCell.xib */,
-				48FEC5B620510AA400AD63C7 /* VideosCell.xib */,
-				48FEC5B820510C7E00AD63C7 /* AktrisCollectionViewCell.xib */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -150,15 +183,8 @@
 		486DA3B5204EEDBA004BC029 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				486DA3B6204EEDEE004BC029 /* NowPlayingViewController.swift */,
-				486DA3B8204EEE4E004BC029 /* ListMovieTableViewCell.swift */,
-				48867CF220505E740000F951 /* MainTabBarViewController.swift */,
-				48867CFA205082BC0000F951 /* DetailMovieViewController.swift */,
-				48867CFE205096B60000F951 /* TitleCell.swift */,
-				48FEC5AE2050FF6300AD63C7 /* BodyCell.swift */,
-				48FEC5B020510A4A00AD63C7 /* SupportCell.swift */,
-				48FEC5B220510A7700AD63C7 /* VideosCell.swift */,
-				48FEC5BA20510C9800AD63C7 /* AktrisCollectionViewCell.swift */,
+				48ECA57120525CF300B2DE94 /* Login */,
+				48ECA56F20525CA500B2DE94 /* MainController */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -180,9 +206,56 @@
 			path = ProgressHUD;
 			sourceTree = "<group>";
 		};
+		48ECA56F20525CA500B2DE94 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				486DA3B6204EEDEE004BC029 /* NowPlayingViewController.swift */,
+				48867CF220505E740000F951 /* MainTabBarViewController.swift */,
+				48867CFA205082BC0000F951 /* DetailMovieViewController.swift */,
+				48ECA57620525DE400B2DE94 /* MainNavigationViewController.swift */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		48ECA57020525CC600B2DE94 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				486DA3B8204EEE4E004BC029 /* ListMovieTableViewCell.swift */,
+				48867CFE205096B60000F951 /* TitleCell.swift */,
+				48FEC5AE2050FF6300AD63C7 /* BodyCell.swift */,
+				48FEC5B020510A4A00AD63C7 /* SupportCell.swift */,
+				48FEC5B220510A7700AD63C7 /* VideosCell.swift */,
+				48FEC5BA20510C9800AD63C7 /* AktrisCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		48ECA57120525CF300B2DE94 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				48ECA57220525D1000B2DE94 /* LoginViewController.swift */,
+				48ECA57420525D1D00B2DE94 /* SignUpViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		48ECA578205266FD00B2DE94 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				48867CFC2050941B0000F951 /* TitleCell.xib */,
+				48FEC5AC2050F8F400AD63C7 /* BodyCell.xib */,
+				48FEC5B420510A9900AD63C7 /* SupportCell.xib */,
+				48FEC5B620510AA400AD63C7 /* VideosCell.xib */,
+				48FEC5B820510C7E00AD63C7 /* AktrisCollectionViewCell.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
 		7028A7B1E4B2D2E90E403C21 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				48ECA56420525B2400B2DE94 /* Realm.framework */,
+				48ECA56520525B2500B2DE94 /* RealmSwift.framework */,
 				C568D874AED35D2058CD235B /* Pods_MovieApp.framework */,
 			);
 			name = Frameworks;
@@ -210,6 +283,7 @@
 				486DA39B204EDDE1004BC029 /* Resources */,
 				D540B5D0B5356FE4C40879E5 /* [CP] Embed Pods Frameworks */,
 				30F32B1753557E5282CADBFC /* [CP] Copy Pods Resources */,
+				48ECA56C20525BB700B2DE94 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -326,11 +400,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48ECA57320525D1000B2DE94 /* LoginViewController.swift in Sources */,
 				48867CF9205077390000F951 /* ProgressHUD.m in Sources */,
+				48ECA56E20525C1000B2DE94 /* Constants.swift in Sources */,
 				48867CFF205096B60000F951 /* TitleCell.swift in Sources */,
 				48FEC5B320510A7800AD63C7 /* VideosCell.swift in Sources */,
+				48ECA57720525DE400B2DE94 /* MainNavigationViewController.swift in Sources */,
 				486DA3A3204EDDE1004BC029 /* ViewController.swift in Sources */,
 				48867CF320505E740000F951 /* MainTabBarViewController.swift in Sources */,
+				48ECA57520525D1D00B2DE94 /* SignUpViewController.swift in Sources */,
 				486DA3B7204EEDEE004BC029 /* NowPlayingViewController.swift in Sources */,
 				486DA3B9204EEE4E004BC029 /* ListMovieTableViewCell.swift in Sources */,
 				484623AD204EFCE400F58556 /* ErrorHandler.swift in Sources */,
@@ -482,6 +560,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZQEDLFR82W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks/RealmSwift.framework",
+				);
 				INFOPLIST_FILE = MovieApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -502,6 +585,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZQEDLFR82W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks/RealmSwift.framework",
+				);
 				INFOPLIST_FILE = MovieApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
